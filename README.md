@@ -2,7 +2,7 @@
 ---
 **🐱 Welcome to the Purrfect Landing Page Project! 🐾**
 
-### 안녕하세요! 이 페이지는 HTML, CSS, 그리고 JavaScript를 활용하여 만든 귀여운 고양이 호두의 랜딩페이지입니다.
+### 안녕하세요! 이 페이지는 HTML, CSS, 그리고 JavaScript를 사용하여 만든 귀여운 고양이 호두의 랜딩페이지입니다.
 
 
 **호두 랜딩페이지의 기능🌟 Purrfect Landing Page Features**
