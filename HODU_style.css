@@ -39,6 +39,10 @@
     align-items: center;
 }
 
+.HODU_logo {
+    margin-left: 70px;
+}
+
 
 .top_contents{
     display: flex;
