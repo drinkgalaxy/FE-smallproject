@@ -1,11 +1,11 @@
 # FE-smallproject
 ---
-**🐱 Welcome to the Purrfect Landing Page Project! 🐾**
+**🐱 Welcome to the FE small Project! 🐾**
 
 ### 안녕하세요! 이 페이지는 HTML, CSS, 그리고 JavaScript를 사용하여 만든 귀여운 고양이 호두의 랜딩페이지입니다.
 
 
-**호두 랜딩페이지의 기능🌟 Purrfect Landing Page Features**
+**호두 랜딩페이지의 기능🌟**
 
 **1. 움직이는 박스 고양이 🐾**
 첫 번째 기능! 페이지에 등장하는 박스 고양이에게 마우스 커서를 가져다대면, 사진이 확대됩니다.
