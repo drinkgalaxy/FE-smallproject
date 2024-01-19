@@ -1,0 +1,482 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+* {
+    font-family: "Pretendard" !important;
+}
+
+.all_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-up {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+
+    &:hover {
+        content: url("HODU_image/top-button-bold.png");
+    }
+}
+
+/*첫 번째 베이지색 페이지*/
+
+.top_box{
+    width: 100%;
+    height: 900px;
+    background-color: #F2E9D8;
+    margin-top: -10px;
+}
+
+.first_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.top_contents{
+    display: flex;
+    align-content: center;
+    padding: 30px;
+}
+
+.top_nav_element{
+    display: flex;
+    gap: 30px;
+    margin-left: 780px;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.top_download_button{
+    margin-left: 50px;
+}
+
+.download_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #D97652;
+    width: 140px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.big_lorem {
+    margin-top: 180px;
+    margin-left: -530px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.small_lorem {
+    font-size: 16px;
+    margin-left: -800px;
+}
+
+.bottom_download_button {
+    margin-top: 35px;
+    margin-left: -1080px;
+}
+
+.box_cat {
+    margin-left: 890px;
+    margin-top: -465px;
+}
+
+.box_cat img {
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+.box_cat img:hover {
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
+
+/*두 번째 화이트 페이지*/
+
+.hodu_bed {
+    display: flex;
+    margin-top: 80px;
+}
+
+.big_2_lorem {
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 800px;
+    margin-top: -400px;
+}
+
+.small_2_lorem {
+    margin-left: 800px;
+    margin-top: 2px;
+}
+
+.dummy_and_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.dummy_text {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #D97652;
+}
+
+.small_dummy {
+    display: inline;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 50px;
+}
+
+.change_orange {
+    display: inline;
+    color: #D97652;
+    font-weight: 700;
+}
+
+/*세 번째 호두 사진 페이지*/
+
+.all_photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-right: 25px;
+}
+
+.top_photos img {
+    margin-left: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 16px 0px rgb(0 0 0 / 40%)
+}
+
+/*이미지 호버 효과 주기*/
+.img_1 {
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+.img_1:hover {
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
+.img_2 {
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+.img_2:hover {
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
+.img_3 {
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+.img_3:hover {
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
+.img_4 {
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+.img_4:hover {
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
+.img_5 {
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+.img_5:hover {
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
+.img_6 {
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+.img_6:hover {
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
+.bottom_photos img {
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 16px 0px rgb(0 0 0 / 40%)
+}
+
+.show_more_say {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+.show_more {
+    display: flex;
+    justify-content: center;
+}
+
+.show_more_button {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    background-color: #D97652;
+    width: 143px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 29px 15px 29px;
+    cursor: pointer;
+}
+
+#loading {
+    display: none;
+    z-index: 999;
+}
+
+.show_stop_button {
+    color: #ffffff;
+    background-color: #D97652;
+    width: 143px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 29px 15px 29px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+/*무한 로딩 더보기*/
+.image-list img {
+    width: 300px;
+    display: flex;
+}
+
+.line {
+    color: #C4C4C4;
+    width: 1278px;
+    height: 1px;
+    margin-top: 90px;
+}
+
+.where {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.where_small {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #606367;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+/*네 번째 카카오 지도 넣기*/
+
+.kakao_map {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+/*구독 창*/
+.sub_box {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+    height: 200px;
+    background-color: #263140;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    z-index: 0;
+}
+
+.sub_big {
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: -430px;
+    margin-top: 50px;
+}
+
+.sub_small {
+    font-size: 14px;
+    font-weight: 400;
+    color: #F2E9D8;
+    margin-left: -445px;
+    margin-top: 120px;
+}
+
+.enter_email_box {
+    width: 530px;
+    height: 60px;
+    border: none;
+    border-radius: 60px;
+    background-color: #ffffff;
+    margin-left: 100px;
+    margin-right: -480px;
+    margin-top: 70px;
+}
+
+.mail_img {
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+.mail_input {
+    color: #767676;
+    margin-left: 70px;
+    margin-top: -26px;
+    border: none;
+}
+.input {
+    border: none;
+}
+
+.enter_button {
+    margin-left: 390px;
+    margin-top: -34.5px;
+}
+
+.enter_button_real {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    background-color: #D97652;
+    width: 135px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 29px 15px 29px;
+    cursor: pointer;
+}
+
+/*구독 모달 창*/
+#modal {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+#modal .modal_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2000px;
+    border-radius: 40px;
+}
+
+.hodu_head {
+    margin-top: -350px;
+}
+
+.thanku_text {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #D97652;
+}
+
+.thanku_small_text {
+    font-size: 14px;
+    font-weight: 400;
+    test-align: center;
+    margin-top: -15px;
+}
+
+.ok_button_real {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    background-color: #D97652;
+    width: 183px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 29px 15px 29px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/*마지막 호두 사진*/
+
+.see {
+    position: relative;
+    margin-top: -120px;
+    z-index: -1;
+}
+
+/*마지막 푸터*/
+.final {
+    display: flex;
+    padding: 40px;
+    margin-bottom: 1px;
+}
+
+.final_icon {
+    margin-left: 1000px;
+    margin-top: 10px;
+}
+
+
+
