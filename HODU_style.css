@@ -409,6 +409,10 @@
     cursor: pointer;
 }
 
+.box_thanku img{
+    border-radius: 30px;
+}
+
 /*구독 모달 창*/
 #modal {
     display: flex;
