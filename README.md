@@ -1,4 +1,4 @@
-# FE-smallproject
+# FE-miniproject
 ---
 **🐱 Welcome to the FE small Project! 🐾**
 
