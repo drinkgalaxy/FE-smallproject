@@ -180,62 +180,12 @@
 }
 
 /*이미지 호버 효과 주기*/
-.img_1 {
+.all_photos img {
     transform: scale(1.0);
     transition: transform .5s;
 }
 
-.img_1:hover {
-    transform: scale(1.2);
-    transition: transform .5s;
-}
-
-.img_2 {
-    transform: scale(1.0);
-    transition: transform .5s;
-}
-
-.img_2:hover {
-    transform: scale(1.2);
-    transition: transform .5s;
-}
-
-.img_3 {
-    transform: scale(1.0);
-    transition: transform .5s;
-}
-
-.img_3:hover {
-    transform: scale(1.2);
-    transition: transform .5s;
-}
-
-.img_4 {
-    transform: scale(1.0);
-    transition: transform .5s;
-}
-
-.img_4:hover {
-    transform: scale(1.2);
-    transition: transform .5s;
-}
-
-.img_5 {
-    transform: scale(1.0);
-    transition: transform .5s;
-}
-
-.img_5:hover {
-    transform: scale(1.2);
-    transition: transform .5s;
-}
-
-.img_6 {
-    transform: scale(1.0);
-    transition: transform .5s;
-}
-
-.img_6:hover {
+.all_photos img:hover {
     transform: scale(1.2);
     transition: transform .5s;
 }
