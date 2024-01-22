@@ -19,4 +19,4 @@
 **4. Hodu Modal Subscription 📧**
 네 번째 기능! 이메일을 입력하고 "Subscribe" 버튼을 누르면 호두의 모달창이 나타납니다. OK 버튼을 눌러서 다시 숨길 수 있습니다. 이메일 입력은 선택적입니다.
 
-https://drinkgalaxy.github.io/FE-smallproject/HODU.html
+https://drinkgalaxy.github.io/FE_miniproject/HODU.html
