@@ -7,50 +7,27 @@ $topBtn.onclick = () => {
 }
 
 
-// 모달창---------------------------------------------
-const modal = document.querySelector("#modal");
-const openButton = document.querySelector(".enter_button_real");
-const closeButton = document.querySelector(".ok_button_real");
-
-function openModal() {
-    modal.style.display = "flex";
-}
-
-function closeModal() {
-    modal.style.display = "none";
-}
-
-window.onclick = function (event) {
-    if(event.target == modal) {
-        closeModal();
-    }
-};
-
-openButton.addEventListener("click", openModal);
-closeButton.addEventListener("click", closeModal);
-
-
 // show more 버튼---------------------------------------------
 const loading = document.querySelector("#loading");
 const loadingButton = document.querySelector(".show_more_button");
 const unloadingButton = document.querySelector(".show_stop_button");
 
-function openModal() {
+function openShow() {
     loading.style.display = "flex";
 }
 
-function closeModal() {
+function closeShow() {
     loading.style.display = "none";
 }
 
 window.onclick = function (event) {
     if(event.target == loading) {
-        closeModal();
+        closeShow();
     }
 };
 
-loadingButton.addEventListener("click", openModal);
-unloadingButton.addEventListener("click", closeModal);
+loadingButton.addEventListener("click", openShow);
+unloadingButton.addEventListener("click", closeShow);
 
 
 // 이미지 무한 로딩---------------------------------------------
@@ -104,6 +81,30 @@ function loadMoreImages() {
 window.addEventListener('scroll', loadMoreImages);
 // 페이지 로드 시 이미지 로딩을 위해 한 번 호출
 loadMoreImages();
+
+
+// 모달창---------------------------------------------
+const modal = document.querySelector("#modal");
+const openButton = document.querySelector(".enter_button_real");
+const closeButton = document.querySelector(".ok_button_real");
+
+function openModal() {
+    modal.style.display = "flex";
+}
+
+function closeModal() {
+    modal.style.display = "none";
+}
+
+window.onclick = function (event) {
+    if(event.target == modal) {
+        closeModal();
+    }
+};
+
+openButton.addEventListener("click", openModal);
+closeButton.addEventListener("click", closeModal);
+
 
 
 // 지도 API 가져오기---------------------------------------------
