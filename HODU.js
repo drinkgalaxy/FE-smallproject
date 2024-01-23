@@ -105,21 +105,36 @@ openButton.addEventListener("click", openModal);
 closeButton.addEventListener("click", closeModal);
 
 // 지도 API 가져오기---------------------------------------------
-var mapContainer = document.getElementById("map"), // 지도를 표시할 div
-    mapOption = {
-        center: new kakao.maps.LatLng(33.4423379727783, 126.571449734542), // 지도의 중심좌표
-        level: 3 // 지도의 확대 레벨
+type="text/javascript"
+src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2b294b167cbc162f8fa2807fbb30f0b0"
+
+// Kakao 지도 라이브러리 로드 후 실행할 콜백 함수
+function initMap() {
+    var mapContainer = document.getElementById("map");
+    var mapOption = {
+        center: new kakao.maps.LatLng(33.4423379727783, 126.571449734542),
+        level: 3
     };
 
-// 지도를 표시할 div와 지도 옵션으로  지도를 생성함.
-var map = new kakao.maps.Map(mapContainer, mapOption);
-// 마커가 표시될 위치를 선정함.
-var markerPosition = new kakao.maps.LatLng(33.4423379727783, 126.571449734542);
-// 마커를 생성함.
-var marker = new kakao.maps.Marker({
-    position: markerPosition
+    // 지도 생성
+    var map = new kakao.maps.Map(mapContainer, mapOption);
+
+    // 마커가 표시될 위치를 선정함.
+    var markerPosition = new kakao.maps.LatLng(33.4423379727783, 126.571449734542);
+
+    // 마커를 생성함.
+    var marker = new kakao.maps.Marker({
+        position: markerPosition
+    });
+
+    // 마커가 지도 위에 표시되도록 설정함.
+    marker.setMap(map);
+}
+
+// Kakao 지도 라이브러리 로드 후 initMap 함수 호출
+document.addEventListener("DOMContentLoaded", function() {
+    // Kakao 지도 라이브러리 로드가 완료된 후 실행되는 부분
+    if (typeof kakao !== 'undefined') {
+        initMap();
+    }
 });
-// 마커가 지도 위에 표시되도록 설정함.
-marker.setMap(map);
-
-
