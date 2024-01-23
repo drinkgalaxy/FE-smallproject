@@ -106,7 +106,8 @@ closeButton.addEventListener("click", closeModal);
 
 // 지도 API 가져오기---------------------------------------------
 
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=96140040150978ef92334d6b285d3e33"></script>
+type="text/javascript"
+src="//dapi.kakao.com/v2/maps/sdk.js?appkey=96140040150978ef92334d6b285d3e33"
 
 var mapContainer = document.getElementById("map"), // 지도를 표시할 div
     mapOption = {
