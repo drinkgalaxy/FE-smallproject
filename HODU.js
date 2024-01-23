@@ -111,17 +111,19 @@ src="//dapi.kakao.com/v2/maps/sdk.js?appkey=96140040150978ef92334d6b285d3e33"
 
 var mapContainer = document.getElementById("map"), // 지도를 표시할 div
     mapOption = {
-        center: new kakao.maps.LatLng(33.4423379727783, 126.571449734542), // 지도의 중심좌표
+        center: new window.kakao.maps.LatLng(33.4423379727783, 126.571449734542), // 지도의 중심좌표
         level: 3 // 지도의 확대 레벨
     };
 
 // 지도를 표시할 div와 지도 옵션으로  지도를 생성함.
-var map = new kakao.maps.Map(mapContainer, mapOption);
+var map = new window.kakao.maps.Map(mapContainer, mapOption);
 // 마커가 표시될 위치를 선정함.
-var markerPosition = new kakao.maps.LatLng(33.4423379727783, 126.571449734542);
+var markerPosition = new window.kakao.maps.LatLng(33.4423379727783, 126.571449734542);
 // 마커를 생성함.
-var marker = new kakao.maps.Marker({
+var marker = new window.kakao.maps.Marker({
     position: markerPosition
 });
 // 마커가 지도 위에 표시되도록 설정함.
 marker.setMap(map);
+
+
