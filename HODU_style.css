@@ -241,15 +241,34 @@
     border-radius: 40px;
     padding: 15px 29px 15px 29px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
 
 /*무한 로딩 더보기*/
-.image-list img {
-    width: 300px;
-    display: flex;
+.image-list {
+    float: left;
 }
+
+.image-list img{
+    width: 378px;
+    height: 378px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 16px 0px rgb(0 0 0 / 40%);
+
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+
+
+.image-list img:hover {
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
 
 .line {
     color: #C4C4C4;
@@ -435,6 +454,4 @@
     margin-left: 1000px;
     margin-top: 10px;
 }
-
-
 
