@@ -125,5 +125,3 @@ var marker = new kakao.maps.Marker({
 });
 // 마커가 지도 위에 표시되도록 설정함.
 marker.setMap(map);
-
-
