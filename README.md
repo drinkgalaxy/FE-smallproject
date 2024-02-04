@@ -1,4 +1,4 @@
-# FE-miniproject
+# 프론트엔드 랜딩페이지 만들기 미니 프로젝트
 ---
 **🐱 Welcome to the FE small Project! 🐾**
 
