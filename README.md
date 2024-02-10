@@ -1,5 +1,5 @@
 # 프론트엔드 랜딩페이지 만들기 미니 프로젝트
----
+
 **🐱 Welcome to the FE small Project! 🐾**
 
 ### 안녕하세요! 이 페이지는 HTML, CSS, 그리고 JavaScript를 사용하여 만든 귀여운 고양이 호두의 랜딩페이지입니다.
