@@ -1,11 +1,9 @@
 # 🐱 프론트엔드 랜딩페이지 만들기
 
-### 🐾 사용 스택
+## 🐾 사용 스택
 [![stackticon](https://firebasestorage.googleapis.com/v0/b/stackticon-81399.appspot.com/o/images%2F1712626208784?alt=media&token=179f5a78-7e47-42c0-938e-7f9d551630f4)](https://github.com/msdio/stackticon)
 
-------
-
-### 🐾 기능 설명
+## 🐾 기능 설명
 #### 움직이는 박스 고양이
 첫 번째 기능! 페이지에 등장하는 박스 고양이에게 마우스 커서를 가져다대면, 사진이 확대됩니다.
 ##### 사진 무한 스크롤
@@ -15,11 +13,7 @@
 #### 구독 Modal
 네 번째 기능! 이메일을 입력하고 'Subscribe' 버튼을 누르면 호두의 modal창이 나타납니다. ok 버튼을 눌러서 다시 숨길 수 있습니다. 이메일 입력은 선택적입니다.
 
-----------
-
-### 🐾 페이지 링크
+## 🐾 페이지 링크
 https://drinkgalaxy.github.io/OreumiFEminiproject/HODU.html
 
----------
-
-### 🐾 시연 영상
+## 🐾 시연 영상
