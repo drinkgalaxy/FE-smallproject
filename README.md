@@ -1,4 +1,5 @@
 # 🐱 프론트엔드 랜딩페이지 만들기
+### 간단한 프론트엔드 프로젝트로 동적인 랜딩페이지를 제작했습니다.
 
 ## 🐾 사용 스택
 [![stackticon](https://firebasestorage.googleapis.com/v0/b/stackticon-81399.appspot.com/o/images%2F1712626208784?alt=media&token=179f5a78-7e47-42c0-938e-7f9d551630f4)](https://github.com/msdio/stackticon)
