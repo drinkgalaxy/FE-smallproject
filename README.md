@@ -19,4 +19,4 @@
 <br>
 
 ## 🐾 페이지 링크
-https://drinkgalaxy.github.io/OreumiFEminiproject/HODU.html
+[https://drinkgalaxy.github.io/OreumiFEminiproject/HODU.html](https://drinkgalaxy.github.io/oreumi-front-mini-project/HODU.html)
